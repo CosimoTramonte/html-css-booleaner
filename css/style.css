@@ -71,4 +71,30 @@ th{
     background-color: rgb(157, 248, 248);
 }
 
+.final-section{
+    padding-top: 20px;
+}
+
 /*footer*/
+
+h3{
+    padding-top: 30px;
+    color: grey;
+}
+
+.site1, .site2{
+    width: 312px;
+    height: 208px;
+    font-size: 30px;
+    color: white;
+}
+
+.site1{
+    background-image: url("../img/monitor.jpg");
+    margin-top: 10px;
+}
+
+.site2{
+    background-image: url("../img/graph.jpg");
+    margin-bottom: 50px;
+}
