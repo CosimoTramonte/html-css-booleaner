@@ -17,9 +17,14 @@ header{
     padding-top: 60px;
     padding-bottom: 10px;
     padding-left: 10px;
+    margin-left: 30%;
 }
 
 /*main*/
+main, footer{
+    margin-left: 30% ;
+    margin-right: 30%;
+}
 
 h1{
     font-size: 50px;
