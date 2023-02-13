@@ -1,20 +1,20 @@
 /*General*/
 
 *{
-    margin: 0;
+    margin: 0%;
+    box-sizing: border-box;
 }
 
 /*header*/
 header{
     background-image: url("../img/pattern.png");
     background-color: rgb(68, 138, 230);
-    background-size: cover; 
-    background-size: 26%;
+    height: 175px;
 }
 
 .logo{
-    width: 200px;
-    padding-top: 30px;
+    width: 400px;
+    padding-top: 60px;
     padding-bottom: 10px;
     padding-left: 10px;
 }
@@ -39,5 +39,36 @@ h1{
 }
 /*section*/
 
+.article{
+    padding-top: 25px;
+}
+
+.underlined{
+    background-color: yellow;
+}
+
+ul{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, tr{
+    width: 30%;
+    text-align: left;
+}
+
+th{
+    background-color: rgb(68, 138, 230);
+    color: white;
+}
+
+.tr1, .tr3{
+    background-color: rgb(157, 248, 248);
+}
 
 /*footer*/
